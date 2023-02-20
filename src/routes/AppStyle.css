@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto&family=Rubik&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  --dark-brown: #403933;
+  --darkest-brown: #2c2721;
+  --cream-yellow: #D0AE7B;
+  --light-brown: #5B5B5B;
+}
+
+body{
+  background: var(--dark-brown);
+  padding: 0 2rem;
+}
+
+.btn {
+  background: var(--cream-yellow);
+  color: white;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 0;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+.mt-2{
+  margin-top: 2%;
+}
+.mt-3{
+  margin-top: 3%;
+}
+.mt-5{
+  margin-top: 5%;
+}
+.mt-10{
+  margin-top: 10%;
+}
