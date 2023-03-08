@@ -14,7 +14,7 @@ html{
 
 body{
   background: var(--dark-brown);
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
 }
 
 .btn {

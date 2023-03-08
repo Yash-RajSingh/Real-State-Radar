@@ -1,0 +1,41 @@
+.search-container {
+  /* border: 1px solid black; */
+}
+
+.search-wrapper {
+  width: 80%;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  background: rgba(91, 91, 91);
+  backdrop-filter: blur(50px);
+  backdrop-filter: saturate(180%) blur(10px);
+  padding: 2rem 1rem;
+  background: rgba(141, 135, 135, 0.46);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.2px);
+  -webkit-backdrop-filter: blur(12.2px);
+}
+
+.search-heading {
+  color: white;
+  font-family: "Raleway";
+}
+
+.search-subwrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.search-subwrapper input {
+  background-color: aliceblue;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.search-subwrapper input::placeholder {
+  color: #000000cb;
+  font-size: 1rem;
+  font-weight: 600;
+}
